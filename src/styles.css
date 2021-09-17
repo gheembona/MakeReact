@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.input-box {
+  display: inline-block;
+}
+.input-box label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
+.input-box input {
+  line-height: 28px;
+  margin-right: 10px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
+button.button-save {
+  padding: 0px 20px;
+  background-color: rgb(9, 113, 241);
+  color: rgb(255, 255, 255);
+  height: 32px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 0;
+  margin-right: 10px;
+}
+
+button.button-reset {
+  padding: 0px 20px;
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  height: 32px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 0;
+}
